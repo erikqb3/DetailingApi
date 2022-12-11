@@ -19,4 +19,5 @@ public class Review
     public string reviewText { get; set; } = null!;
 
     public string starCount { get; set; } = null!;
+    public Boolean approved { get; set; }
 }
